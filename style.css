@@ -127,3 +127,140 @@ nav button:hover{
     color: rgba(0, 168, 219, 1);
     background:  #fff;
 }
+
+.sponsors{
+width: 80%;
+margin: auto;
+display: flex;
+gap: 5rem;
+align-items: center;
+margin-top: 4rem;
+margin-bottom: 4rem;
+}
+
+
+.sponsors img{
+  width: 100%;
+
+}
+
+.post{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin: auto;
+
+}
+
+.postImage img{
+width: 100%;
+}
+
+.postImage{
+  width: 40%;
+}
+
+.postText{
+  width: 45%;
+}
+
+.postText h3{
+  font-family: DM Sans;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 52px;
+  letter-spacing: 0.30000001192092896px;
+  color: rgba(3, 77, 130, 1);
+  width: 85%;
+  }
+
+.postText p{
+  font-family: DM Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 32px;
+letter-spacing: 0.30000001192092896px;
+color:rgba(144, 163, 180, 1);
+}
+
+.postText a{
+  font-family: DM Sans;
+font-size: 16px;
+font-weight: 700;
+line-height: 20.83px;
+color: rgba(4, 170, 221, 1);
+}
+
+.arrow{
+  position: relative;
+  z-index: -2;
+}
+
+.iphone{
+  position: absolute;
+}
+
+.schedule{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 85%;
+  margin: auto;
+  margin-top:8rem;
+}
+
+.scheduleText{
+  width: 50%;
+}
+
+.scheduleImage{
+ width: 60%;
+}
+.scheduleImage img{
+  width:100% ;
+}
+.scheduleText p{
+  font-family: DM Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 32px;
+letter-spacing: 0.30000001192092896px;
+color: rgba(144, 163, 180, 1);
+
+}
+
+.scheduleText h3{
+  font-family: DM Sans;
+font-size: 36px;
+font-weight: 700;
+line-height: 52px;
+letter-spacing: 0.30000001192092896px;
+color:  rgba(3, 77, 130, 1);
+width: 80%;
+}
+
+.scheduleText a{
+  font-family: DM Sans;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20.83px;
+color: rgba(4, 170, 221, 1);
+}
+
+.scheduleText ul{
+  font-family: DM Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 20.83px;
+letter-spacing: 0.30000001192092896px;
+color: rgba(144, 163, 180, 1);
+display: list-item;
+}
+
+.scheduleText ul li{
+  padding: 0.5rem;
+}
+
+
+
