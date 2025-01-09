@@ -21,7 +21,7 @@ header {
 }
 
 .logo img {
-  width: 120%;
+  width: 100%;
 }
 nav {
   display: flex;
@@ -71,9 +71,7 @@ nav button {
   font-family: DM Sans;
   font-size: 64px;
   font-weight: 700;
-  color: #fff;
-
-  
+  color: #fff; 
 }
 
 
@@ -113,6 +111,7 @@ color: rgba(0, 168, 219, 1);
 background: #fff;
 border: none;
 cursor: pointer;
+width: 25%;
 padding: 1rem 1.5rem;
 border-radius: 4px;
 }
@@ -199,7 +198,9 @@ color: rgba(4, 170, 221, 1);
 
 .iphone{
   position: absolute;
+  /* width: 40%; */
 }
+
 
 .schedule{
   display: flex;
@@ -300,7 +301,8 @@ color: rgba(142, 169, 193, 1);
   padding: 1rem 1rem 3rem 1rem;
   border-radius: 8px;
   height: 300px;
-}
+  width: 199%;
+  }
 
 .card h5{
   font-family: DM Sans;
@@ -320,8 +322,11 @@ color: rgba(142, 169, 193, 1);
 }
 
 .card:hover{
-
-  background:  rgba(239, 251, 255, 1);
+  background: rgba(3, 77, 130, 1);
+  color: #fff;
+  transform: scale(1.1);
+ transition: 0.5s;
+  border-radius: 8px;
 }
 
 .growth{
@@ -348,7 +353,6 @@ color: rgba(142, 169, 193, 1);
   font-weight: 400;
   line-height: 26px;
   color: rgba(144, 163, 180, 1);
-
 }
 
 .growthText p{
@@ -499,4 +503,153 @@ width: 68%;
   line-height: 20.83px;
 color: rgba(255, 255, 255, 1);
 margin-top: 1rem;
+}
+
+
+@media(max-width: 1024px){
+  .textSide h2 {
+    font-size: 44px;
+    width: 100%;
+}
+
+.textSide p{
+  width: 90%;
+  padding: 1rem 0;
+}
+
+.curve img {
+width: 25%;
+}
+
+.demo button{
+ font-size: 16px;
+ width: 55%;
+ }
+
+.demo{
+  margin-bottom: 3rem;
+}
+
+.textSide{
+  width: 50%;
+}
+
+.imageSide{
+ width: 50%;
+}
+
+.iphone{
+  width: 35%;
+}
+
+
+.postText{
+  width: 50%;
+}
+
+.postText h3{
+  width: 100%;
+  }
+
+  .cardWrap{
+    gap: 1rem;
+    height: 70vh;
+  }
+  
+  .card{
+    width: 100%;
+    height: 320px;
+  }
+  .growthLeft h3{
+    font-size: 26px;
+    width: 90%;
+  }
+
+  .growthLeft p{
+    font-size: 16px;
+    width: 90%;
+  }
+
+ 
+  .footRight{ 
+    width: 80%;
+  }
+ 
+}
+
+@media(max-width: 768px){
+  header{
+    gap: 3rem;
+  }
+
+  .navBar{
+    margin-bottom: -1rem;
+  }
+
+ nav{
+  width: 100%;
+ }
+  
+  .logo{
+    width: 20%;
+  }
+  .textSide{
+    margin-left: 4rem;
+  }
+
+.textSide h2{
+  font-size: 30px;
+  width: 80%;
+}
+
+.textSide p{
+  font-size: 13px;
+}
+ .demo button{
+  font-size: 16px;
+padding: 0.7rem 1rem;
+width: 90%;
+ }
+
+ .postText h3{
+  font-size: 28px;
+  line-height: 40px;
+  width: 100%;
+  }
+
+  .postText p{
+  font-size: 14px;
+  line-height: 22px;
+  padding: 1rem;
+
+  }
+  
+  .topHashtag h2{
+  font-size: 28px;
+  line-height: 52px;
+  }
+  .topHashtag p{
+  font-size: 14px;
+  width: 95%;
+  }
+  .cardWrap{
+    gap: 1rem;
+    height: 80vh;
+  }
+
+    .card{
+      padding: 1rem;
+    }
+  .card h5{
+  font-size: 16px;
+  line-height: 24px;
+  }
+  
+  .card p{
+  font-size: 13px;
+  }
+   
+  .card img{
+    width: 40%;
+  }
 }
